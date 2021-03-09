@@ -1,0 +1,13 @@
+{
+  "name": "yt_info",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "valdo",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "ytdl-core": "^4.5.0"
+  }
+}
