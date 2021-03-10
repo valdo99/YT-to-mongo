@@ -18,6 +18,7 @@ getInfo(id).then((res) => {
   let { song, artist } = res.videoDetails.media;
   let date = res.videoDetails.publishDate;
   let newSong = new Song({
+    youtube:id,
     title: song,
     author: artist,
     genre: "indie",

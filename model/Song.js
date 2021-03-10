@@ -2,6 +2,10 @@ const mongoose =require('mongoose')
 const Schema = require('mongoose').Schema
 
 var Song = new Schema({
+  youtube:{
+    type: String,
+    required: true
+  },
   title: {
     type: String,
     required: true,
