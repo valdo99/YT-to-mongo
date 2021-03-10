@@ -23,7 +23,7 @@ getInfo(id).then((res) => {
     author: artist,
     genre: "indie",
     date,
-  });
+  }); 
 
   newSong
     .save()
